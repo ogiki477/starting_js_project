@@ -74,3 +74,25 @@ const user = {
 
 console.log(user.age);
 user.greeting();
+
+
+//CLASSES
+
+class User {
+    constructor(name ,age){
+        this.name = name;
+        this.age = age;
+    }
+
+    greetings(){
+        console.log("Yooo,How are You");
+    }
+}
+
+const user1 = new User('omo',25);
+
+console.log(user1);
+console.log(user1.age);
+console.log(user1.name);
+user1.greetings();
+
