@@ -2,8 +2,21 @@
 
 //import apiKey from "./util.js";
 
-import * as util from "./util.js";
-
 //console.log(apiKey);
 
-console.log(util.apiKey);
+//import * as util from "./util.js";
+
+//console.log(util.apiKey);
+
+
+
+//Variables And Values 
+
+let  userMessage = 'Hello World';
+
+userMessage = "World";
+
+console.log(userMessage);
+console.log(userMessage);
+console.log(userMessage);
+console.log(userMessage);
