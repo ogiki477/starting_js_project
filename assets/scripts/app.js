@@ -31,3 +31,25 @@ if(10 === 10){
 
     console.log("Works");
 }
+
+
+// FUNCTONS 
+
+function greeting(){
+    console.log("Greetings");
+}
+
+greeting();
+greeting();
+greeting();
+greeting();
+
+
+function greetUser(userName,greeting){
+    // console.log(userName);
+    // console.log(greeting);
+
+    return "Hello " + userName + " " + greeting + " There!!";
+}
+
+console.log(greetUser('Omo','Watsup'));
