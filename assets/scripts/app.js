@@ -53,3 +53,24 @@ function greetUser(userName,greeting){
 }
 
 console.log(greetUser('Omo','Watsup'));
+
+
+
+// OBJECTS AND CLASSES 
+
+const user = {
+
+    name: "Omo",
+    age: 34,
+
+    greeting(){
+        console.log("Hello");
+        console.log(this.name);
+    }
+
+};
+
+//console.log(user);
+
+console.log(user.age);
+user.greeting();
