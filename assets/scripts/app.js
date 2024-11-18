@@ -108,3 +108,9 @@ const index = hobbies.findIndex((item)=> item === "reading");
 
 console.log(index);
 
+
+
+const [firstName, lastName] = ['Omo','Moses'];
+
+console.log(firstName);
+console.log(lastName);
