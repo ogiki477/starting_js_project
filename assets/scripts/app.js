@@ -96,3 +96,15 @@ console.log(user1.age);
 console.log(user1.name);
 user1.greetings();
 
+
+const hobbies = ['sports','cooking','reading'];
+console.log(hobbies[0]);
+
+hobbies.push("Working");
+console.log(hobbies);
+
+
+const index = hobbies.findIndex((item)=> item === "reading");
+
+console.log(index);
+
